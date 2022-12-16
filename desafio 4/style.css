@@ -1,0 +1,131 @@
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagem {
+  background: var(--white300);
+  display: flex;
+  justify-content: center;
+  padding: 18.5rem 0;
+}
+
+img {
+  width: 50%;
+}
+
+.cadastro {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+h1 {
+  padding-bottom: 3rem;
+}
+
+h4 {
+  line-height: 1.5 !important;
+}
+
+h5 {
+  padding-top: 13rem;
+  text-align: center;
+}
+
+p{
+  margin-top: 0.5rem !important;
+}
+
+button {
+  width: 115%;
+  height: 4rem;
+  color: white;
+}
+
+.button1 {
+  background-color: var(--green);
+}
+
+.button2 {
+  background-color: var(--dark);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 img {
+  width: 5%;
+  margin: 0 3%;
+}
+
+label {
+  font-size: 1rem;
+}
+
+input {
+  padding: 4% 2%;
+  border: 0.5px solid var(--input);
+  outline: 0;
+  transition: 0.5s;
+  font-size: 1rem;
+  width: 115%;
+  height: 4rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.teste{
+  width: 5%;
+  margin-right: -8rem;
+}
+
+.lembrete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+
+/* responssivo telefone */
+
+@media screen and (max-width: 768px) {
+  button {
+    font-size: 1.01rem;
+  }
+
+  .imagem {
+    display: none;
+  }
+
+  .cadastro {
+    width: 100%;
+  }
+
+  .border {
+    width: 90%;
+  }
+
+  form {
+    margin-top: 18%;
+  }
+
+  .cadastro {
+    display: flex;
+    align-content: center;
+    margin-top: 15%;
+  }
+
+  button{
+    width: 90%;
+  }
+
+  h5{
+    padding-top: 12rem;
+  }
+  
+}
