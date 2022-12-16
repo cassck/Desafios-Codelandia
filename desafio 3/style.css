@@ -1,0 +1,160 @@
+header {
+  background: var(--bgSite);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 2;
+  font-family: Merryweather-Regular;
+  padding-left: 15%;
+}
+
+.row h4 {
+  line-height: 2;
+  font-family: Lato-Regular;
+  padding-left: 15%;
+  margin-right: 25%;
+}
+
+button {
+  width: 11rem;
+  height: 4rem;
+  background: var(--buttonColor);
+  color: var(--white);
+  margin-left: 15% !important;
+  margin-top: 3rem !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+
+section {
+  background: var(--white300);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+
+.card {
+  width: 15%;
+  height: 30rem !important;
+}
+
+.card-one {
+  height: 50%;
+  background-color: #ff6363;
+}
+.card-two {
+  height: 50%;
+  background-color: #63ecff;
+}
+.card-three {
+  height: 50%;
+  background-color: #f366ff;
+}
+
+.card-four {
+  height: 50%;
+  background-color: #63ff73;
+}
+.card-five {
+  height: 50%;
+  background-color: #ffdd63;
+}
+.card-six {
+  height: 50%;
+  background-color: #6663ff;
+}
+
+.title {
+  padding: 2rem;
+}
+
+p {
+  margin: -1rem 2rem auto !important;
+}
+
+footer {
+  background: var(--bgSite);
+  text-align: center;
+}
+
+.entreemcontato {
+  padding-top: 5rem;
+}
+
+input {
+  width: 29rem;
+  height: 4rem;
+  margin-bottom: 1rem !important;
+}
+
+textarea {
+  width: 29rem;
+  margin-bottom: 1rem !important;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.enviar {
+  background: var(--buttonColor);
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.enviar placeholder {
+  color: var(--white);
+}
+
+@media (max-width: 1028px) {
+  header {
+    padding-bottom: 5rem;
+  }
+
+  .row h1 {
+    line-height: 1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  button {
+    margin: 5rem;
+  }
+
+  section {
+    margin: 10rem 2rem auto 2rem;
+    padding: 0;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
