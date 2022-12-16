@@ -1,5 +1,0 @@
-git add . (quando o doc ja esta dentro do repositorio no github)
-
-git commit -m "nome do repositori"
-
-git push
